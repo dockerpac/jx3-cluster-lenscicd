@@ -16,5 +16,7 @@ releases:
 - chart: dev/jx3-lensdevopscare-demo
   version: 0.0.1
   name: jx3-lensdevopscare-demo
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
