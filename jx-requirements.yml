@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "lenscicd.pac.dockerps.io"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
