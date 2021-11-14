@@ -9,6 +9,7 @@ data:
       enabled:
         dockerpac/jx3-cluster-lenscicd: true
         dockerpac/jx3-golang-http: true
+        dockerpac/jx3-lensdevopscare-demo: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         dockerpac/jx3-cluster-lenscicd: merge
         dockerpac/jx3-golang-http: merge
+        dockerpac/jx3-lensdevopscare-demo: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - dockerpac/jx3-cluster-lenscicd
         - dockerpac/jx3-golang-http
+        - dockerpac/jx3-lensdevopscare-demo
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - dockerpac/jx3-cluster-lenscicd
         - dockerpac/jx3-golang-http
+        - dockerpac/jx3-lensdevopscare-demo
       target_url: http://lighthouse-jx.lenscicd.pac.dockerps.io/merge/status
 kind: ConfigMap
 metadata:
