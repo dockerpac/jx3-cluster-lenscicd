@@ -328,13 +328,13 @@
   path: helmfiles/jx-staging/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.1
+    appVersion: 0.0.2
     description: A Helm chart for Kubernetes
-    firstDeployed: "2021-11-14T21:26:26Z"
+    firstDeployed: "2021-11-14T22:24:13Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2021-11-14T21:26:26Z"
+    lastDeployed: "2021-11-14T22:24:13Z"
     name: jx3-golang-http
     repositoryName: dev
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     resourcePath: config-root/namespaces/jx-staging/jx3-golang-http
-    version: 0.0.1
+    version: 0.0.2
