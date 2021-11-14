@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: jx3-golang-http
+    - name: jx3-lensdevopscare-demo
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
