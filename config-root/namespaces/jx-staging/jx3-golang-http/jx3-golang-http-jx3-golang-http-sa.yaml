@@ -1,0 +1,10 @@
+# Source: jx3-golang-http/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx3-golang-http-jx3-golang-http
+  annotations:
+    meta.helm.sh/release-name: 'jx3-golang-http'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
