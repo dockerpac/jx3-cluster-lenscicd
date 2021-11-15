@@ -6,10 +6,6 @@ data:
       repos:
       - dockerpac/jx3-cluster-lenscicd
       require_self_approval: true
-    - lgtm_acts_as_approve: true
-      repos:
-      - dockerpac/jx3-golang-http
-      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -25,11 +21,6 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
-      dockerpac/jx3-golang-http:
-      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
-        name: cd-indicators
-      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
-        name: lighthouse-webui-plugin
     heart: {}
     label:
       additional_labels: null
@@ -37,22 +28,6 @@ data:
     plugins:
       dockerpac/jx3-cluster-lenscicd:
       - config-updater
-      - approve
-      - assign
-      - blunderbuss
-      - help
-      - hold
-      - lgtm
-      - lifecycle
-      - override
-      - size
-      - trigger
-      - wip
-      - heart
-      - cat
-      - dog
-      - pony
-      dockerpac/jx3-golang-http:
       - approve
       - assign
       - blunderbuss
@@ -80,11 +55,6 @@ data:
     - repos:
       - dockerpac/jx3-cluster-lenscicd
       trusted_org: todo
-    - repos:
-      - dockerpac/jx3-golang-http
-      trusted_org: todo
-    welcome:
-    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
