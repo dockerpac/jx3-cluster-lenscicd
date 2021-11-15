@@ -7,5 +7,9 @@ namespace: jx-staging
 repositories:
 - name: dev
   url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+releases:
+- chart: dev/jx3-demo1
+  version: 0.0.1
+  name: jx3-demo1
 templates: {}
 renderedvalues: {}
