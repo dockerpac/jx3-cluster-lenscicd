@@ -1,0 +1,10 @@
+# Source: jx3-demo1/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx3-demo1-jx3-demo1
+  annotations:
+    meta.helm.sh/release-name: 'jx3-demo1'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
