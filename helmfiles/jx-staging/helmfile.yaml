@@ -9,7 +9,7 @@ repositories:
   url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
 releases:
 - chart: dev/jx3-demo1
-  version: 0.0.3
+  version: 0.0.4
   name: jx3-demo1
   values:
   - jx-values.yaml
