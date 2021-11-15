@@ -1,13 +1,13 @@
-# Source: jx3-demo1/templates/service.yaml
+# Source: jx3-demo2/templates/service.yaml
 apiVersion: v1
 kind: Service
 metadata:
-  name: jx3-demo1
+  name: jx3-demo2
   labels:
-    chart: "jx3-demo1-0.0.4"
+    chart: "jx3-demo2-0.0.1"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
-    meta.helm.sh/release-name: 'jx3-demo1'
+    meta.helm.sh/release-name: 'jx3-demo2'
   namespace: jx-production
 spec:
   type: ClusterIP
@@ -17,4 +17,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: jx3-demo1-jx3-demo1
+    app: jx3-demo2-jx3-demo2
