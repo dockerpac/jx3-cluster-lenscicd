@@ -133,16 +133,7 @@
 		    </tr>
 	    <tr>
 	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> jx3-demo1 </a></td>
-	      <td>0.0.1</td>
-	      <td></td>
-	      <td></td>
-	    </tr>
-    <tr>
-		      <td colspan='4'><h3>jx-staging</h3></td>
-		    </tr>
-	    <tr>
-	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> jx3-demo1 </a></td>
-	      <td>0.0.2</td>
+	      <td>0.0.3</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
