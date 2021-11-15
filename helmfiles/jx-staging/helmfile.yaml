@@ -11,5 +11,7 @@ releases:
 - chart: dev/jx3-demo1
   version: 0.0.1
   name: jx3-demo1
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
