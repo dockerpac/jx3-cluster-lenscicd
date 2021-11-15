@@ -316,9 +316,9 @@
   - apiVersion: v1
     appVersion: 0.0.4
     description: A Helm chart for Kubernetes
-    firstDeployed: "2021-11-15T12:23:13Z"
+    firstDeployed: "2021-11-15T12:23:12Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2021-11-15T12:23:13Z"
+    lastDeployed: "2021-11-15T12:23:12Z"
     name: jx3-demo1
     repositoryName: dev
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
@@ -349,3 +349,14 @@
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     resourcePath: config-root/namespaces/jx-staging/jx3-demo1
     version: 0.0.4
+  - apiVersion: v1
+    appVersion: 0.0.1
+    description: A Helm chart for Kubernetes
+    firstDeployed: "2021-11-15T12:23:18Z"
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    lastDeployed: "2021-11-15T12:23:18Z"
+    name: jx3-demo2
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    resourcePath: config-root/namespaces/jx-staging/jx3-demo2
+    version: 0.0.1
