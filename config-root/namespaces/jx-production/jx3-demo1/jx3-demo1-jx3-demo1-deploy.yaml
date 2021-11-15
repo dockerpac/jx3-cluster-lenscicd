@@ -5,7 +5,7 @@ metadata:
   name: jx3-demo1-jx3-demo1
   labels:
     draft: draft-app
-    chart: "jx3-demo1-0.0.3"
+    chart: "jx3-demo1-0.0.4"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'jx3-demo1'
@@ -25,11 +25,11 @@ spec:
       serviceAccountName: jx3-demo1-jx3-demo1
       containers:
         - name: jx3-demo1
-          image: "ghcr.io/dockerpac/jx3-demo1:0.0.3"
+          image: "ghcr.io/dockerpac/jx3-demo1:0.0.4"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.3
+              value: 0.0.4
           envFrom: null
           ports:
             - name: http
