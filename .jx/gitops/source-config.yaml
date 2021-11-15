@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: jx3-demo1
+    - name: jx3-demo2
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
