@@ -7,8 +7,6 @@ spec:
   - owner: dockerpac
     provider: https://github.com
     providerKind: github
-    repositories:
-    - name: jx3-golang-http
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
